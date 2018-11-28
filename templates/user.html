@@ -1,7 +1,17 @@
-<h1> Hello, {{u}}! </h1>
+<!doctype html>
+<html>
 
-<h2>Today's top headers in technology are...</h2>
-{% for item in my_headlines %}
-    <li>{{item}}</li>
-    
-{% endfor %}
+    <header>
+        <link rel="stylesheet" href="styles.css">
+    </header>
+
+
+    <h1> Hello, {{u}}! </h1>
+
+    <h2>Today's top headers in technology are...</h2>
+    <ol>
+    {% for item in my_headlines %}
+        <li>{{item}}</li>
+    {% endfor %}
+    </ol>
+</html>

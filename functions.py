@@ -15,7 +15,9 @@ def get_headlines(nyt_results_dict):
     headlines = []
 
     for r in results:
-        headlines.append(r['title'])
+        title = r['title']
+        url = r['url']
+        #headlines.append(r['title'])
+        headlines.append(str(title)+' ('+str(url)+')')
     return headlines
-
 
