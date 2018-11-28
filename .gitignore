@@ -1,2 +1,4 @@
 
 secrets_example.py
+*.pyc
+secrets_example.py

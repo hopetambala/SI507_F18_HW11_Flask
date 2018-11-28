@@ -1,1 +1,7 @@
-<h1> Hello my name is {{u}} </h1>
+<h1> Hello, {{u}}! </h1>
+
+<h2>Today's top headers in technology are...</h2>
+{% for item in my_headlines %}
+    <li>{{item}}</li>
+    
+{% endfor %}
